@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h6,li,p{
 
   /* Button Manipulation */
 button{
-border-radius: 23%;
+border-radius: 10%;
 color:#454B54;
 font-size: 16px;
 }
@@ -67,4 +67,85 @@ font-size: 16px;
 }
 aside{
   background-color: #C7D7E2;
+}
+/* ADD HTML CODE FOR PHONE SECTION
+
+*/
+figure{
+  border:2px solid red;
+}
+
+#testimonal{
+  background-color: #C7D7E2;
+  margin-bottom: 100px;
+}
+/* Go back to edit moving and fixing images on this section
+#testimonal #test-face{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+*/
+#testimonal img{
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+#testimonal p{
+  text-align: center;
+}
+ .name p {
+  color:#95989A;
+}
+
+/*Our Teaam Section */
+#our-team{
+  margin-bottom: 100px;
+}
+.team-mates{
+  display: inline-block;
+  width: 22%;
+  margin-left: 15px;
+}
+.team-mates img{
+  background-color: #C7D7E2;
+}
+.team-mates p{
+  background-color: #454B54;
+  color: white;
+}
+
+/* Pricing Ad Section */
+.pricingad{
+
+}
+.price{
+  display: inline-block;
+  width: 33%;
+  margin-bottom: 100px;
+}
+.price h2,h4{
+  text-align: center;
+
+}
+.price ul{
+  text-align: center;
+}
+/* Contact Section */
+#contact{
+  margin-bottom: 50px;
+  background-image: url('/assests/map2x.png');
+
+}
+
+
+
+
+/* Our clients */
+.our-clients img{
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: 50px;
 }
