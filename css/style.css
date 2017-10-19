@@ -1,8 +1,12 @@
+body {
+  font-family: helvetica;
+}
+
 /* Container*/
 #container{
   margin:0 auto;
   width:1333px;
-  height: 5131px;
+
 }
 /* Text Manipulation*/
 h1,h2,h3,h4,h5,h6,li,p{
@@ -133,6 +137,8 @@ figure{
 .price ul{
   text-align: center;
 }
+
+
 /* Contact Section */
 #contact{
   margin-bottom: 50px;
@@ -148,4 +154,64 @@ figure{
   display: inline-block;
   margin-right: 100px;
   margin-left: 50px;
+  margin-bottom: 100px;
+}
+
+
+
+/* footer */
+.menu {
+width: 8%;
+display: inline-block;
+list-style: none;
+margin-left: 150px;
+margin-right: -140px;
+font-family: helvetica;
+font-size: 12px;
+line-height: 20px;
+}
+.menu li {
+  list-style: none;
+}
+.menu h5 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.footer-info {
+  width: 20%;
+  display: inline-block;
+  margin-left: 80px;
+  font-family: helvetica;
+  font-size: 12px;
+  margin-bottom: 45px;
+  margin-top: 70px;
+}
+.footer-info li , .footer-info h5{
+  list-style: none;
+}
+footer ul{
+  display: inline-block;
+  list-style: none;
+}
+footer {
+  background-color: #4F555E;
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#footer-logo {
+  width: 45%;
+}
+#privacy {
+  margin-left: 250px;
+  padding-left: 200px;
+}
+.copyright  {
+  width: 40%;
+  display: inline-block;
+  font-size: 12px;
+}
+.copyright li {
+  text-align: right;
 }
