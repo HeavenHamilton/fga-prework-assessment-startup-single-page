@@ -11,7 +11,7 @@ body {
 /* Text Manipulation*/
 h1,h2,h3,h4,h5,h6,li,p{
     color: #454B54;
-  }
+}
   .texts{
     margin: 0 auto 30px;
     width: 560px;
@@ -34,9 +34,17 @@ color:#454B54;
 font-size: 16px;
 }
 /* Header */
-#topsection img,ul{
+#topsection{
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+#topsection img{
   display: inline-block;
-  margin: 0 210px 70px 40px;
+  position: absolute;
+}
+#topsection ul{
+  display: inline-block;
+  margin-left: 600px;
 }
 #topsection li{
   display:inline;
@@ -71,14 +79,22 @@ font-size: 16px;
 }
 aside{
   background-color: #C7D7E2;
+  margin-bottom:100px;
+  border: 2px solid red;
+}
+#sidesection h5,h6{
+text-align: left;
+width: 700px;
+display: inline-block;
+
+}
+#grey{
+  position: absolute;
+  left:800px;
 }
 /* ADD HTML CODE FOR PHONE SECTION
 
 */
-figure{
-  border:2px solid red;
-}
-
 #testimonal{
   background-color: #C7D7E2;
   margin-bottom: 100px;
@@ -146,9 +162,6 @@ figure{
 
 }
 
-
-
-
 /* Our clients */
 .our-clients img{
   display: inline-block;
@@ -157,8 +170,6 @@ figure{
   margin-bottom: 100px;
 }
 
-
-
 /* footer */
 .menu {
 width: 8%;
@@ -166,7 +177,6 @@ display: inline-block;
 list-style: none;
 margin-left: 150px;
 margin-right: -140px;
-font-family: helvetica;
 font-size: 12px;
 line-height: 20px;
 }
@@ -181,7 +191,6 @@ line-height: 20px;
   width: 20%;
   display: inline-block;
   margin-left: 80px;
-  font-family: helvetica;
   font-size: 12px;
   margin-bottom: 45px;
   margin-top: 70px;
@@ -206,7 +215,8 @@ footer {
 #privacy {
   margin-left: 250px;
   padding-left: 200px;
-}
+} +
+
 .copyright  {
   width: 40%;
   display: inline-block;
